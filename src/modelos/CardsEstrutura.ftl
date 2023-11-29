@@ -1,16 +1,16 @@
 <div class="container CardsEstruturaSS">
     <div class="row">
-        <#if Fieldset04327903.getSiblings()?has_content>
-            <#list Fieldset04327903.getSiblings() as cur_Fieldset04327903>
+        <#if Fieldset80130504.getSiblings()?has_content>
+            <#list Fieldset80130504.getSiblings() as cur_Fieldset80130504>
                 <div class="col-md-4 ">
                     <div class="card" style="width: 18rem;">
-                        <#if (cur_Fieldset04327903.Image06617452.getData())?? && cur_Fieldset04327903.Image06617452.getData() !="">
-                            <img alt="${cur_Fieldset04327903.Image06617452.getAttribute("alt")}" data-fileentryid="${cur_Fieldset04327903.Image06617452.getAttribute("fileEntryId")}" src="${cur_Fieldset04327903.Image06617452.getData()}" />
+                        <#if (cur_Fieldset80130504.Image93768638.getData())?? && cur_Fieldset80130504.Image93768638.getData() !="">
+                            <img alt="${cur_Fieldset80130504.Image93768638.getAttribute("alt")}" data-fileentryid="${cur_Fieldset80130504.Image93768638.getAttribute("fileEntryId")}" src="${cur_Fieldset80130504.Image93768638.getData()}" />
                         </#if>
                         <div class="card-body">
-                            <#if (cur_Fieldset04327903.Text14849062.getData())??>
+                            <#if (cur_Fieldset80130504.Text14036897.getData())??>
                                 <h5 class="card-title">
-                                    ${cur_Fieldset04327903.Text14849062.getData()}
+                                    ${cur_Fieldset80130504.Text14036897.getData()}
                                 </h5>
                             </#if>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
