@@ -2,8 +2,8 @@
     <div class="row">
         <#if Fieldset80130504.getSiblings()?has_content>
             <#list Fieldset80130504.getSiblings() as cur_Fieldset80130504>
-                <div class="col-md-4 ">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-4 w-auto">
+                    <div class="card">
                         <#if (cur_Fieldset80130504.Image93768638.getData())?? && cur_Fieldset80130504.Image93768638.getData() !="">
                             <img alt="${cur_Fieldset80130504.Image93768638.getAttribute("alt")}" data-fileentryid="${cur_Fieldset80130504.Image93768638.getAttribute("fileEntryId")}" src="${cur_Fieldset80130504.Image93768638.getData()}" />
                         </#if>

@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 ">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card 1</h5>
@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="col-md-4 ">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card 2</h5>
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="col-md-4 ">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card 3</h5>

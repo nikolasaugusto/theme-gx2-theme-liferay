@@ -1,7 +1,7 @@
 <div class="container">
-    <div class="fragment_1 row ml-3">
+    <div class="fragment_1 row">
         [#list 1..configuration.numbersCards as cur_numbersCard]
-        <div class="card col-md-4" id="${cur_numbersCard_index}">
+        <div class="card col-md-4 mx-1" id="${cur_numbersCard_index}">
             <lfr-editable class="card-img" id="${cur_numbersCard_index}-image" type="image">
                 <img class="card-img-top" src="..." alt="Card image cap">
             </lfr-editable>
