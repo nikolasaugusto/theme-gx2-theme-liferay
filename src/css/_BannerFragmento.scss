@@ -1,7 +1,0 @@
-.cnu-banner .card-img{
-    height: calc(450px + ${configuration.PreenchimentoPelicula}px);
-  }
-  
-  .cnu-banner .card-img:before {
-    background-color : var(--${configuration.backgroundColor.cssClass});
-  }
