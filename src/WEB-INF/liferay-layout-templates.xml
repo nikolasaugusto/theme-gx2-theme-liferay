@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 7.4.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_7_4_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="gx2layout" name="GX2layout">
+			<template-path>/layouttpl/custom/gx2layout-layouttpl/gx2layout.ftl</template-path>
+			<thumbnail-path>/layouttpl/custom/gx2layout-layouttpl/gx2layout.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>
