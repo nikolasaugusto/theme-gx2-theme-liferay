@@ -1,4 +1,4 @@
-<div class="fragment_401">
+<div class="fragment_808">
     <div class="cnu-banner mb-0 card" style="padding-top:${configuration.PreenchimentoPelicula}px; padding-bottom:${configuration.PreenchimentoPelicula}px;">
         <lfr-editable id="ImagemDesktop" type="image" class="img-desktop d-none d-md-block">
             <img src="" class="card-img" />
@@ -26,13 +26,4 @@
             </div>
         </div>
     </div>
-    <style>
-    .cnu-banner .card-img {
-        height: calc(450px + ${configuration.PreenchimentoPelicula}px);
-    }
-
-    .cnu-banner .card-img:before {
-        background-color : var(--${configuration.backgroundColor.cssClass});
-    }
-    </style>
 </div>
